@@ -1,6 +1,6 @@
 <?php
 
-error_reporting(0);
+//error_reporting(0);
 header("Cache-Control: no cache");
 session_cache_limiter("private_no_expire");
 if (!defined('BASEPATH'))
